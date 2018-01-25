@@ -4,7 +4,7 @@
 Ubuntu Server er frítt open source stýrikerfi fyrir servera sem þú getur notað í t.d vefsíður, database servera, Cloud þjónustur og fleira. Ubuntu server styður öll stærstu architecture-in eins og t.d  x86, x86-64, ARM v7 og fleiri. Um 36% af öllum vefsíðum nota Ubuntu server.
 
 ## 2. 
-Apache býr til ný processes og þræði fyrir hvert request. Apache er kraftmikið en Nginx er hraðvirkara og léttrara.
+Apache býr til ný processes og þræði fyrir hvert request. Nginx er samansett af modulum sem notandi velur að compilea. Nginx getur compileað PHP kóða sjálft. Apache er kraftmikið en Nginx er hraðvirkara, léttrara og betra fyrir static síður.
 
 ## 3.
 Common Gateway Interface eða CGI er elsti application serverinn og er studdur af nánast öllum vefþjónum. Fyrir hvert request þarf að ræsa nýjan Python þýðanda sem tekur tíma og þess vegna er CGI bara ganglegt í lágum álags stöðum.
