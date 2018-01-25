@@ -11,13 +11,13 @@ Common Gateway Interface eða CGI er elsti application serverinn og er studdur a
 
 mod_python er module fyrir Apache sem er embeddar Python inn í serverinn sjálfan.
 
+FastCgi and SCGI eru nánast eins og CGI en þeir reyndu að bæta performancið.
+
 mod_wsgi er WSGI compliant module sem gerir þér kleift að keyra Python WSGI applications á Apache HTTP serveri.
 
 Gunicorn er sjálfstæður vefþjónn sem býður upp á mikið af virkni á máta sem er auðvelt að nota.
 
 uWSGI reynir að bjóða uppá full software stack til að byggja hýsingarþjónustu. uWSGI kemur með WSGI adapteri og fullstyður Python applications sem keyra á WSGI
-
-
 
 ## 4.
 
@@ -28,9 +28,13 @@ PIP stendur fyrir annaðhvort Pip Installs Python eða PIP Installs Packages og 
 HTTP 2 er skrifað sem binary en ekki texta eins og HTTP 1.1. HTTP 2 er líka multiplexed sem þýðir að það getur sent mörg request/response á sama tíma sem gerir það hraðvirkara.
 
 ## 7. 
-SSH stendur fyrir Secure Socket Shell og er notað til þess að logga sig in remotely í einhverja tölvu. SSH key
+SSH stendur fyrir Secure Socket Shell og er notað til þess að logga sig in remotely í einhverja tölvu. SSH key er best að nota í tölvu sem þú notar bara.
 
-## 8. Two factor authentication er notað til að auka öryggi á reikningum og virkar þannig að þú skráir þig inn með notandanafni og lykilorði en svo þarftu að hafa upplýsingar sem bara þú átt að vita, t.d að fá email eða sms.
+## 8. 
+Two factor authentication er notað til að auka öryggi á reikningum og virkar þannig að þú skráir þig inn með notandanafni og lykilorði en svo þarftu að hafa upplýsingar sem bara þú átt að vita, t.d að fá email eða sms.
 
-## 9. IPv6 er næsta útgáfa af Internet Protocol eða IP tölum. IPv4 getur hafið um 4.3 billjónir af IP tölum en það er ekki nóg því það eru svo mikið af tækjum til í dag, IPv6 kostir eru að við getum hafið mikið fleiri IP tölur
+## 9. 
+IPv6 er næsta útgáfa af Internet Protocol eða IP tölum. IPv4 getur hafið um 4.3 billjónir af IP tölum en það er ekki nóg því það eru svo mikið af tækjum/vefsíðum til í dag. Kostir við IPv6 eru að við getum hafið mikið fleiri IP tölur og þannig hafið fleiri vefsíður.
+
+## 10.
 http://138.68.177.17/
